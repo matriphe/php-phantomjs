@@ -1,14 +1,21 @@
 {
-    "name": "jonnyw/php-phantomjs",
+    "name": "matriphe/php-phantomjs",
     "description": "A PHP wrapper for loading pages through PhantomJS",
     "keywords": ["PhantomJS", "Testing", "Headless Browser"],
 	"type": "library",
     "license": "MIT",
     "authors": [
+    	{
+            "name": "Muhammad Zamroni",
+            "email": "halo@matriphe.com",
+            "homepage": "http://matriphe.com",
+            "role": "Developer"
+        },
         {
             "name": "Jonny Wenmoth",
             "email": "contact@jonnyw.me",
-            "homepage": "http://jonnyw.me/"
+            "homepage": "http://jonnyw.me/",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
@@ -17,7 +24,7 @@
     },
     "autoload": {
         "psr-0": {
-            "JonnyW\\PhantomJs\\": "src"
+            "matriphe\\PhantomJs\\": "src"
         },
 		"classmap": ["src/"]
     },
